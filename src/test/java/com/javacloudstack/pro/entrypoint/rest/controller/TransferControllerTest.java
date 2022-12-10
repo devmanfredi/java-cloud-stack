@@ -1,4 +1,4 @@
-package com.javacloudstack.pro.entrypoint;
+package com.javacloudstack.pro.entrypoint.rest.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
