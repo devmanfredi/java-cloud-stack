@@ -9,8 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("transfer/v1")
 public class TransferController {
 
-    @GetMapping
-    public String hello() {
-        return "Hello Word!!!!";
+    @GetMapping("/")
+    public String healthCheck() {
+        return "HEALTH CHECK OK!";
+    }
+
+    @GetMapping("/version")
+    public String version() {
+        return "The actual version is 1.0.0";
     }
 }
