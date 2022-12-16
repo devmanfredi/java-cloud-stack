@@ -1,7 +1,8 @@
 package com.javacloudstack.pro;
 
+import com.javacloudstack.pro.entrypoint.rest.AccountClientData;
 import com.javacloudstack.pro.entrypoint.rest.dtos.TransferRequest;
 
 public interface TransferDomainPort {
-    public String searchInfoAccount(TransferRequest transferRequest);
+    AccountClientData searchInfoAccount(TransferRequest transferRequest);
 }

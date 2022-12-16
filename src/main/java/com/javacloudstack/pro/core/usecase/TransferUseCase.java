@@ -15,7 +15,7 @@ public class TransferUseCase {
     public String execute(TransferRequest transferRequest) {
         Assert.notNull(transferRequest, "Não pode ser nulo!");
 
-        var infoAccount = transferDomainPort.searchInfoAccount(transferRequest);
+        var accountData = transferDomainPort.searchInfoAccount(transferRequest);
         return "";
     }
 }
